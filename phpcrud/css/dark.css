@@ -1,0 +1,39 @@
+:root {
+    --toggle-color: whitesmoke;
+  --bg-color-1: white;
+  --bg-color-2: cadetblue;
+  --bg-color-3: whitesmoke;
+  --bg-color-dash: gray;
+  --content: white;
+  --primary-text-color: black;
+  --secondary-text-color: darkslategray;
+}
+
+body.active {
+    --toggle-color: black;
+  --bg-color-1: #2C3333;
+  --bg-color-2: #395B64;
+  --bg-color-3: #1B2430;
+  --bg-color-dash: #2C3333;
+  --content: #1B2430;
+  --primary-text-color:white;
+  --secondary-text-color: white;
+}
+
+#theme-toggler {
+    position: static;
+  float: right;
+  top: 20px;
+  right: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 15px 20px;
+  font-size: 30px;
+  background: var(--toggle-color);
+  color: var(--primary-text-color);
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  font-size: 14px;
+}
